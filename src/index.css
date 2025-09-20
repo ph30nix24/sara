@@ -1,0 +1,35 @@
+@import url('https://fonts.googleapis.com/css2?family=Zalando+Sans:ital,wght@0,200..900;1,200..900&display=swap');
+@import "tailwindcss";
+
+
+@theme {
+    --font-heading : "Zalando Sans", sans-serif;
+    --color-primary : #DE5C40;
+}
+
+@layer components {
+  .nav-bg {
+    @apply bg-black/80 md:rounded-full text-white;
+  }
+  .element-shadow {
+    @apply md:transition-all md:duration-500;
+    @apply md:hover:shadow-2xl md:hover:-translate-y-[7%];
+  }
+  .element-center {
+    @apply flex justify-center items-center;
+  }
+}
+@layer utilities {
+  .word-spacing-tight {
+    word-spacing: -0.1em;
+  }
+  .word-spacing-normal {
+    word-spacing: normal;
+  }
+  .word-spacing-wide {
+    word-spacing: 0.25em;
+  }
+  .word-spacing-wider {
+    word-spacing: 0.5em;
+  }
+}
