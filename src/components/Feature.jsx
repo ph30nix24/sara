@@ -6,8 +6,8 @@ const Feature = () => {
   return (
     <div  className='w-full min-h-screen pt-30'>
       <div className='w-full md:h-[372px] h-[200px] flex flex-col md:flex-row items-center justify-center gap-[5%] md:px-40 px-5'>
-        <GenderCard pic={"/assets/img/backpackMan.png"} order={"1"} heading={"Men"}/>
-        <GenderCard pic={"/assets/img/backpackWoman.png"} order={"2"} heading={"Women"}/>
+        <GenderCard pic={"./assets/img/backpackMan.png"} order={"1"} heading={"Men"}/>
+        <GenderCard pic={"./assets/img/backpackWoman.png"} order={"2"} heading={"Women"}/>
       </div>
       <div id='featured' className='w-full h-fit md:py-40 py-20'>
         <h1 className='w-full text-4xl uppercase mt-20 text-center'>Featured Products</h1>

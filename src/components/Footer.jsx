@@ -10,8 +10,8 @@ const Footer = () => {
                 <h1 className="uppercase text-sm md:text-2xl font-semibold tracking-wider pb-2 md:pb-4">Sara</h1>
                 <p className='text-sm md:text-xl font-semibold capitalize'>product store</p>
                 <div className='w-full h-fit flex gap-2 md:flex-row flex-col pt-2 md:pt-4'>
-                    <img src="/assets/img/footerstore1.png" className='md:w-1/2 w-full h-full object-center object-contain' alt="" />
-                    <img src="/assets/img/footerstore2.png" className='md:w-1/2 h-full object-center object-contain' alt="" />
+                    <img src="./assets/img/footerstore1.png" className='md:w-1/2 w-full h-full object-center object-contain' alt="" />
+                    <img src="./assets/img/footerstore2.png" className='md:w-1/2 h-full object-center object-contain' alt="" />
                 </div>
             </div>
             <div className='w-1/3 md:w-1/5 h-fit flex flex-col justify-start pl-4 md:pl-0'>
