@@ -3,7 +3,7 @@ import Button from './Button'
 
 const NewCard = ({ pic }) => {
   return (
-    <div className="w-[30%] min-w-[300px] h-[300px] bg-gray-200 mb-12 relative rounded-lg overflow-hidden">
+    <div className="w-[30%] min-w-[300px] h-[260px] bg-gray-200 mb-12 relative rounded-lg overflow-hidden">
       <img 
         src={pic}  
         alt="new-arrival" 

@@ -28,8 +28,8 @@ const Hero = () => {
         </div> : <video src="./assets/videos/home2.mp4" className={`object-cover w-full h-full relative z-0`} autoPlay loop muted />}
         
         <div className='absolute z-10 top-0 md:translate-y-1/2 md:right-0 md:translate-x-1/10 text-center md:w-1/2 w-full md:h-1/2 h-full md:px-40 flex flex-col md:justify-center pl-10 md:pt-10 pt-50'>
-          <h1 className='text-start text-xl uppercase md:pb-8 pb-10'> <span className='md:text-7xl text-5xl uppercase leading-relaxed tracking-widest '>Unveiling</span> <br /> the Latest Trends</h1>
-          <p className='text-start md:text-2xl text-lg pr-10 font-semibold md:pb-40 pb-10 hidden md:block'>Discover the latest arrivals crafted for trendsetters. From everyday essentials to statement pieces, upgrade your wardrobe with styles made to turn heads</p>
+          <h1 className='text-start text-lg uppercase md:pb-8 pb-10'> <span className='md:text-6xl text-5xl uppercase leading-relaxed tracking-widest '>Unveiling</span> <br /> the Latest Trends</h1>
+          <p className='text-start md:text-xl text-lg pr-10 font-semibold md:pb-30 pb-10 hidden md:block'>Discover the latest arrivals crafted for trendsetters. From everyday essentials to statement pieces, upgrade your wardrobe with styles made to turn heads</p>
           <Button heading={'Go Shopping'} bgColor={'bg-black'} />
         </div>
     </div>
